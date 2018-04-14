@@ -10,13 +10,20 @@ import Foundation
 
 final class SearchAssembly {
 	private let imageLoadingAssembly: ImageLoadingAssembly
+    private let detailAssembly: DetailAssembly
 
-	init(imageLoadingAssembly: ImageLoadingAssembly) {
+	init(imageLoadingAssembly: ImageLoadingAssembly,
+         detailAssembly: DetailAssembly) {
 		self.imageLoadingAssembly = imageLoadingAssembly
+        self.detailAssembly = detailAssembly
 	}
 
+    func searchNavigator() -> SearchNavigator {
+        return SearchNavigator(searchViewControllerProvider: self)
+    }
+    
 	func presenter() -> SearchPresenter {
-		return SearchPresenter()
+		return SearchPresenter(detailNavigator: detailAssembly.pushDetailNavigator)
 	}
 
 	func resultPresenter() -> SearchResultPresenter {
