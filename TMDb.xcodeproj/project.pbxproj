@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		63A2B72B208204EB00BE0463 /* AppAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A2B72A208204EB00BE0463 /* AppAssembly.swift */; };
+		63A2B72E2082136000BE0463 /* DetailNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A2B72D2082136000BE0463 /* DetailNavigator.swift */; };
+		63A2B730208214B000BE0463 /* PushDetailNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A2B72F208214B000BE0463 /* PushDetailNavigator.swift */; };
 		9901C1042080A10B00714957 /* Kingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9901C1012080A10B00714957 /* Kingfisher.framework */; };
 		9901C1052080A10B00714957 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9901C1022080A10B00714957 /* RxCocoa.framework */; };
 		9901C1062080A10B00714957 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9901C1032080A10B00714957 /* RxSwift.framework */; };
@@ -140,6 +142,8 @@
 
 /* Begin PBXFileReference section */
 		63A2B72A208204EB00BE0463 /* AppAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAssembly.swift; sourceTree = "<group>"; };
+		63A2B72D2082136000BE0463 /* DetailNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailNavigator.swift; sourceTree = "<group>"; };
+		63A2B72F208214B000BE0463 /* PushDetailNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushDetailNavigator.swift; sourceTree = "<group>"; };
 		9901C1012080A10B00714957 /* Kingfisher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kingfisher.framework; path = Carthage/Build/iOS/Kingfisher.framework; sourceTree = "<group>"; };
 		9901C1022080A10B00714957 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
 		9901C1032080A10B00714957 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
@@ -249,6 +253,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		63A2B72C2082133700BE0463 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				63A2B72D2082136000BE0463 /* DetailNavigator.swift */,
+				63A2B72F208214B000BE0463 /* PushDetailNavigator.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
 		9901C1002080A10B00714957 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -312,6 +325,7 @@
 				993D566B2080E10F00FB9F85 /* DI */,
 				993D56662080DE1F00FB9F85 /* Domain */,
 				993D56492080DD2100FB9F85 /* Presentation */,
+				63A2B72C2082133700BE0463 /* Navigation */,
 			);
 			path = Details;
 			sourceTree = "<group>";
@@ -731,6 +745,7 @@
 				99B8DA832080D3CE00D07287 /* Movie.swift in Sources */,
 				99B8DA7B2080D34100D07287 /* SearchResultCell.swift in Sources */,
 				99B8DA7D2080D35B00D07287 /* SearchViewController.swift in Sources */,
+				63A2B730208214B000BE0463 /* PushDetailNavigator.swift in Sources */,
 				99B8DA822080D3CE00D07287 /* Show.swift in Sources */,
 				993D56592080DDFA00FB9F85 /* PosterStripCell.swift in Sources */,
 				9901C11E2080ABA300714957 /* WebService.swift in Sources */,
@@ -758,6 +773,7 @@
 				993D565B2080DDFA00FB9F85 /* PosterStripPresenter.swift in Sources */,
 				993D565D2080DDFA00FB9F85 /* DetailAboutView.swift in Sources */,
 				99B9E7162080BE6E001DD8C8 /* ReusableView.swift in Sources */,
+				63A2B72E2082136000BE0463 /* DetailNavigator.swift in Sources */,
 				99B91EDF2080D9AE00E5E161 /* FeaturedPresenter.swift in Sources */,
 				9901C1252080AECF00714957 /* WebServiceAssembly.swift in Sources */,
 				99B9E7102080BCB9001DD8C8 /* KeyedDecodingContainer+Array.swift in Sources */,
