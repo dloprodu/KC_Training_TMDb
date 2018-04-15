@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		638FC1E12083AB76002517F0 /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638FC1E02083AB76002517F0 /* Page.swift */; };
 		63A2B72B208204EB00BE0463 /* AppAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A2B72A208204EB00BE0463 /* AppAssembly.swift */; };
 		63A2B72E2082136000BE0463 /* DetailNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A2B72D2082136000BE0463 /* DetailNavigator.swift */; };
 		63A2B730208214B000BE0463 /* PushDetailNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A2B72F208214B000BE0463 /* PushDetailNavigator.swift */; };
@@ -145,6 +146,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		638FC1E02083AB76002517F0 /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
 		63A2B72A208204EB00BE0463 /* AppAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAssembly.swift; sourceTree = "<group>"; };
 		63A2B72D2082136000BE0463 /* DetailNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailNavigator.swift; sourceTree = "<group>"; };
 		63A2B72F208214B000BE0463 /* PushDetailNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushDetailNavigator.swift; sourceTree = "<group>"; };
@@ -503,6 +505,7 @@
 				99B8DA7E2080D3CE00D07287 /* Show.swift */,
 				99B8DA862080D60E00D07287 /* Genre.swift */,
 				99B8DA872080D60F00D07287 /* genres.json */,
+				638FC1E02083AB76002517F0 /* Page.swift */,
 			);
 			path = Domain;
 			sourceTree = "<group>";
@@ -758,6 +761,7 @@
 				99B9E7182080BE94001DD8C8 /* UITableView+Reusable.swift in Sources */,
 				99B9E7052080B901001DD8C8 /* CoreAssembly.swift in Sources */,
 				99B9E6FE2080B782001DD8C8 /* ImageSize.swift in Sources */,
+				638FC1E12083AB76002517F0 /* Page.swift in Sources */,
 				993D56682080DE3800FB9F85 /* DetailSection.swift in Sources */,
 				99B91EE02080D9AE00E5E161 /* FeaturedViewController.swift in Sources */,
 				99B8DA902080D69200D07287 /* CardView.swift in Sources */,

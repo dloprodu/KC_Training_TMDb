@@ -10,6 +10,7 @@ import Foundation
 
 internal enum Endpoint {
 	case configuration
+    case showsOnTheAir(page: Int)
 }
 
 internal extension Endpoint {
@@ -42,13 +43,17 @@ private extension Endpoint {
 		switch self {
 		case .configuration:
 			return "configuration"
-		}
+        case .showsOnTheAir:
+            return "tv/on_the_air"
+        }
 	}
 
 	var parameters: [String: String] {
 		switch self {
 		case .configuration:
 			return [:]
-		}
+        case .showsOnTheAir(let page):
+            return ["page": String(page)]
+        }
 	}
 }
