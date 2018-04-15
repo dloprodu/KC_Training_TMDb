@@ -9,5 +9,6 @@
         <page name='Fake Detail Presentation'/>
         <page name='ReactiveX'/>
         <page name='APIRequest'/>
+        <page name='APIRequestRx'/>
     </pages>
 </playground>
